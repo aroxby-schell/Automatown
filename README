@@ -1,0 +1,67 @@
+Automatown Game Mechanics Prototype
+------------------------------------
+Goal:
+Create a hole in the north wall to escape this area.
+
+How to play:
+You are blue cylinder (All the art work is placeholder art).
+Click anywhere on the grid to move your automaton.
+Click and drag to move the camera.
+Click any button on the left side of the screen to build that object where you are standing.
+Click the remove button to remove the object you are standing inside of.
+Large objects build down and to the right (stand in where the upper left corner of the object should be).
+Objects require empty space to build.
+Junklings, Miners, Forges, and Emitters, require power to function.
+The hearth generates power and the Emitters extend it.  The power radius is visible as a white circle.
+(See walkthrough for more information)
+
+Harvesting resources:
+You can build junklings and miners to harvest resources. (See walkthrough)
+Junklings and miners must walk on a path.
+Junklings and miners follow a simple rule set.
+They will always attempt to traverse a path in the following order: forward, right, left.
+They will become stopped if none of those options are available.
+They always spawn facing north, keep this in mind when deciding where to place them.
+Only miners can harvest rocks, building a miner requires 1 gear.
+
+Walkthrough Part 1:
+You need to create a hole in the north wall to exit (nothing will happen in this prototype but that is the level goal).
+First, you will need a hearth to harvest resources and generate power.
+Ideally you will have a cache of power cells (as a resource) and building anything will spend some.
+However, in this prototype you can build everything for free (except miners).
+If you want to play along build a hearth near the grass on the left (if not skip to the section on gears).
+Build a path that goes past the trees and makes a loop back to hearth (to harvest grass), keep in mind the rules of the junklings.
+Build some junklings along the path.
+You will notice junklings stop if they leave the power radius of the hearth, build some emitters (inside the power radius) to extend the hearth's range).
+Next, you will need to start harvesting gears to create miners.
+You need a loop and a forge to convert the scrap on the right to gears.
+stand four squares to the left of gears and build a forge (RTL)(Right to Left).
+Next, build a path and some junklings to harvest harvest the scrap and take it to the forge.
+If you didn't build a hearth before, build one five squares left of the forge.
+Build a path to harvest gears form the forge and take them to the hearth.
+You will need to build some emitters to extend the range of the hearth.
+
+Walkthrough Part 2:
+(If you wanted to generate power cells faster, which you don't need in this prototype).
+Build a path to harvest (remove) some of the rocks from the south wall (only miners can harvest rocks).
+Once rock(s) are removed you can build a path where they once stood.
+You can then harvest the water.
+Build a forge (you might be able to use the same one as before).
+Build a loop to take the water to a forge.
+The forge will produce steam, which can be taken to the hearth for more power cell production than grass.
+You may need more emitters to reach this area (Tip: You can build more than one hearth).
+
+Walkthrough Part 3:
+Now that you have gears, you can build miners.
+Build a path to harvest (remove) some of the rocks from the north wall (only miners can harvest rocks).
+Tip: Drag the mouse to get a better view of this area.
+Take these rocks back to the hearth to free up your miner's hands.
+Once rock(s) are removed you can build a path where they once stood.
+You may need more emitters to reach this area.
+Once you have made an opening the south wall, your automaton is free to escape (you win)!
+
+-----------------------------------------------------------------------------------------------
+Release notes:
+You don't need to harvest anything for power, you can skip straight to gears (I hit a time limitation), so just pretend :-)
+Your automaton can walk through objects (including the north wall), so just pretend :-)
+There is no sound.  I wanted this project to be open source and finding free (quality) sounds is a pain.
